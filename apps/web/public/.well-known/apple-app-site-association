@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "K9LDK6LF4H.com.ericterminal.orangecloud",
+        "paths": [
+          "/oauth/callback",
+          "/oauth/callback/*"
+        ]
+      }
+    ]
+  }
+}

@@ -289,7 +289,7 @@ final class AuthManager {
         return try await exchangeCodeForToken(code: code, verifier: verifier)
     }
 
-    /// 打开系统授权窗口，等待 orangecloud:// 回调
+    /// 打开系统授权窗口，等待 orangeclouderic:// 回调
     private func authenticate(with url: URL, ephemeral: Bool) async throws -> URL {
         try await withCheckedThrowingContinuation { continuation in
             let completion: (URL?, (any Error)?) -> Void = { callbackURL, error in

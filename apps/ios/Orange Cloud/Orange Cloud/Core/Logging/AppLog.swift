@@ -39,7 +39,7 @@ nonisolated struct AppLog: Sendable {
 
     private init(_ category: Category) {
         self.category = category
-        self.logger = Logger(subsystem: "jiamin.chen.orange-cloud", category: category.rawValue)
+        self.logger = Logger(subsystem: "com.ericterminal.orangecloud", category: category.rawValue)
     }
 
     func debug(_ message: @autoclosure () -> String)  { emit(.debug, message()) }

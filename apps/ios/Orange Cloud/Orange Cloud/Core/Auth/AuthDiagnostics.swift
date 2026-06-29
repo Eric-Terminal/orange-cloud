@@ -9,7 +9,7 @@
 //  若不一致，说明这枚令牌不是我们最后写入的那枚——只可能是 iCloud 钥匙串把旧值同步覆盖回来了。
 //  紧接着若刷新被 token 端点 400 拒绝并登出，即坐实「iCloud 复活旧令牌 → 400 → 误登出」。
 //
-//  采集：日志经 AppLog.auth 同时进 Console（subsystem `jiamin.chen.orange-cloud` / category `auth`）
+//  采集：日志经 AppLog.auth 同时进 Console（subsystem `com.ericterminal.orangecloud` / category `auth`）
 //  与 App 内日志文件，可在「设置 → 帮助与反馈」随反馈导出。看到 "token changed externally"
 //  紧跟 "rejected 400" 即坐实竞态。坐实后可删除指纹/基线逻辑（日志门面 AppLog 保留）。
 //

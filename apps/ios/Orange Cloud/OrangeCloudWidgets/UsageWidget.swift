@@ -12,7 +12,7 @@ import SwiftUI
 import AppIntents
 import os
 
-nonisolated private let usageLog = Logger(subsystem: "jiamin.chen.orange-cloud.widgets", category: "UsageWidget")
+nonisolated private let usageLog = Logger(subsystem: "com.ericterminal.orangecloud.widgets", category: "UsageWidget")
 
 // （UsageServiceOption / UsageConfigIntent 在 Shared/WidgetConfigIntents.swift，两个 target 共享）
 

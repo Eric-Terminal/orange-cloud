@@ -17,7 +17,7 @@ import BackgroundTasks
 @available(iOS 26.0, *)
 nonisolated enum ContinuedTaskRunner {
 
-    static let taskIdentifier = "jiamin.chen.Orange-Cloud.transfer"
+    static let taskIdentifier = "com.ericterminal.orangecloud.transfer"
 
     typealias ProgressCallback = @Sendable (Double) -> Void
     typealias Operation = @Sendable (

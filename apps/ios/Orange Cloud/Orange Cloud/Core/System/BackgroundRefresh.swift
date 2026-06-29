@@ -13,7 +13,7 @@ import SwiftData
 @MainActor
 enum BackgroundRefresh {
 
-    static let taskIdentifier = "jiamin.chen.Orange-Cloud.refresh"
+    static let taskIdentifier = "com.ericterminal.orangecloud.refresh"
 
     /// App 启动时注册（必须在 didFinishLaunching 前，App.init 中调用）
     static func register(authManager: AuthManager) {

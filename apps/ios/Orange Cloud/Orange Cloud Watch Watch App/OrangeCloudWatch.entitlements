@@ -4,11 +4,11 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.jiamin.chen.Orange-Cloud</string>
+		<string>group.com.ericterminal.orangecloud</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)jiamin.chen.orange-cloud.shared</string>
+		<string>$(AppIdentifierPrefix)com.ericterminal.orangecloud.shared</string>
 	</array>
 </dict>
 </plist>

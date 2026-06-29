@@ -12,7 +12,7 @@ import Security
 
 nonisolated enum SharedAuth {
 
-    private static let service = "app.orangecloud.oauth"
+    private static let service = "app.orangeclouderic.oauth"
 
     private struct SharedToken: Codable {
         let accessToken: String

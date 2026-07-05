@@ -10,5 +10,10 @@
         ]
       }
     ]
+  },
+  "webcredentials": {
+    "apps": [
+      "K9LDK6LF4H.com.ericterminal.orangecloud"
+    ]
   }
 }

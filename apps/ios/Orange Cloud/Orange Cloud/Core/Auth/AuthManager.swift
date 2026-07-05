@@ -289,7 +289,7 @@ final class AuthManager {
         return try await exchangeCodeForToken(code: code, verifier: verifier)
     }
 
-    /// 打开系统授权窗口，等待 orangeclouderic:// 回调
+    /// 打开系统授权窗口。iOS 17.4+ 直接监听 HTTPS 回调，旧系统回退自定义 scheme relay。
     private func authenticate(with url: URL, ephemeral: Bool) async throws -> URL {
         try await withCheckedThrowingContinuation { continuation in
             let completion: (URL?, (any Error)?) -> Void = { callbackURL, error in
@@ -304,9 +304,10 @@ final class AuthManager {
             // iOS 17.4+ 用 callback API；iOS 17.0–17.3 回退旧的 callbackURLScheme 初始化器
             let session: ASWebAuthenticationSession
             if #available(iOS 17.4, *) {
+                let redirect = URL(string: OAuthConfig.redirectURI)!
                 session = ASWebAuthenticationSession(
                     url: url,
-                    callback: .customScheme(OAuthConfig.callbackScheme),
+                    callback: .https(host: redirect.host!, path: redirect.path),
                     completionHandler: completion
                 )
             } else {

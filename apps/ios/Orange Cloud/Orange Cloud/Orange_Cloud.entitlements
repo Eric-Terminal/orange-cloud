@@ -11,6 +11,7 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>applinks:auth.ericterminal.com</string>
+		<string>webcredentials:auth.ericterminal.com</string>
 	</array>
 	<key>keychain-access-groups</key>
 	<array>

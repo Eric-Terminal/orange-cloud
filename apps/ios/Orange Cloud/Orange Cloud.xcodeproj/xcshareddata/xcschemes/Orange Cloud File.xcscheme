@@ -18,6 +18,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9C176802FEED96400BFBC18"
                BuildableName = "Orange Cloud File.appex"
+               BlueprintName = "Orange Cloud File"
                ReferencedContainer = "container:Orange Cloud.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -31,6 +32,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E9EF3A222FD98F7B007C2377"
                BuildableName = "Orange Cloud.app"
+               BlueprintName = "Orange Cloud"
                ReferencedContainer = "container:Orange Cloud.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -62,6 +64,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9EF3A222FD98F7B007C2377"
             BuildableName = "Orange Cloud.app"
+            BlueprintName = "Orange Cloud"
             ReferencedContainer = "container:Orange Cloud.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,6 +83,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E9EF3A222FD98F7B007C2377"
             BuildableName = "Orange Cloud.app"
+            BlueprintName = "Orange Cloud"
             ReferencedContainer = "container:Orange Cloud.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

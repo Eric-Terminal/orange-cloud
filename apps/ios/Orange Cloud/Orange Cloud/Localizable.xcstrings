@@ -50853,6 +50853,7 @@
       }
     },
     "多账号与专业功能" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -60360,6 +60361,7 @@
       }
     },
     "已解锁，感谢支持" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -78541,6 +78543,7 @@
       }
     },
     "无法加载商品信息，请稍后再试。" : {
+      "extractionState" : "stale",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
